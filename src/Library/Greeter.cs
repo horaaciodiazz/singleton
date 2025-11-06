@@ -4,7 +4,7 @@ namespace Library
 {
     public class Greeter
     {
-        private Greeter()
+        public Greeter()
         {
             // Intentionally left blank
         }
@@ -26,7 +26,7 @@ namespace Library
 
         public void SayHiToTheWorld()
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Hello World!");
         }
     }
 }
